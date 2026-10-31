@@ -1,0 +1,13 @@
+{
+  "name": "hyperframes",
+  "title": "HyperFrames skills",
+  "description": "35 skills for making video with HyperFrames HTML, GSAP and the web animation stack, from storyboard to delivery.",
+  "author": "MOZGII, Inc.",
+  "url": "https://mozgii.com",
+  "coauthor": "",
+  "coauthorUrl": "",
+  "version": "1.0.0",
+  "selftest": {
+    "minimum": 0.85
+  }
+}

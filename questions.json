@@ -1,0 +1,537 @@
+[
+ {
+  "question": "My HyperFrames scene renders blank and every render waits 45 seconds per scene. What did I get wrong?",
+  "answer": "waits 45 s per scene",
+  "file": "v0.8/core/hyperframes/SKILL.md"
+ },
+ {
+  "question": "Should I use gsap.from or gsap.fromTo inside a sub-composition?",
+  "answer": "Use `fromTo`, not `from`, inside a scene",
+  "file": "v0.8/core/hyperframes/SKILL.md"
+ },
+ {
+  "question": "How do I keep the original sound of a video clip in a HyperFrames composition?",
+  "answer": "data-has-audio=\"true\"",
+  "file": "v0.8/core/hyperframes/references/media-elements.md"
+ },
+ {
+  "question": "How can I render the same video with a different headline and price for each customer?",
+  "answer": "--batch rows.json",
+  "file": "v0.8/core/hyperframes/references/variables.md"
+ },
+ {
+  "question": "Lint says media_crossorigin_breaks_preview, how do I fix it?",
+  "answer": "remove it and keep the file in `assets/`",
+  "file": "v0.8/core/hyperframes/references/lint-rules.md"
+ },
+ {
+  "question": "Which command is the final gate before I render, and what does browserSkipped mean?",
+  "answer": "browserSkipped",
+  "file": "v0.8/core/hyperframes-cli/SKILL.md"
+ },
+ {
+  "question": "How do I export a transparent overlay video from HyperFrames?",
+  "answer": "WebM and MOV keep transparency",
+  "file": "v0.8/core/hyperframes-cli/references/render-flags.md"
+ },
+ {
+  "question": "How do I write assertions that an element appears before a certain second?",
+  "answer": "appearsBy",
+  "file": "v0.8/core/hyperframes-cli/references/check-and-snapshot.md"
+ },
+ {
+  "question": "Chrome dies immediately when I render inside a sandboxed coding agent on macOS",
+  "answer": "Sandboxes that block Chrome",
+  "file": "v0.8/core/hyperframes-cli/references/environment.md"
+ },
+ {
+  "question": "How do I move a clip to a new time from the command line and undo it later?",
+  "answer": "timeline undo receipt.json",
+  "file": "v0.8/core/hyperframes-cli/references/timeline-edits.md"
+ },
+ {
+  "question": "Is there a ready-made film grain or glitch effect I can install instead of writing one?",
+  "answer": "npx hyperframes catalog --query",
+  "file": "v0.8/core/hyperframes-registry/SKILL.md"
+ },
+ {
+  "question": "The catalog search returns nothing for my Japanese query",
+  "answer": "Searching in English for a film in another language",
+  "file": "v0.8/core/hyperframes-registry/SKILL.md"
+ },
+ {
+  "question": "My Spanish interview transcribed into English words. Why?",
+  "answer": "Always pass `--model`",
+  "file": "v0.8/media/hyperframes-media/SKILL.md"
+ },
+ {
+  "question": "How do I cut a presenter out of their background so text can sit behind them?",
+  "answer": "remove-background",
+  "file": "v0.8/media/hyperframes-media/SKILL.md"
+ },
+ {
+  "question": "Whisper added 'Thank you.' at the end of my transcript over silence",
+  "answer": "silencedetect",
+  "file": "v0.8/media/hyperframes-media/references/transcription.md"
+ },
+ {
+  "question": "How many words should each caption group have for an energetic TikTok?",
+  "answer": "2 to 3 words for high energy",
+  "file": "v0.8/media/hyperframes-captions/SKILL.md"
+ },
+ {
+  "question": "Old captions stay on screen after the next ones appear",
+  "answer": "hard kill",
+  "file": "v0.8/media/hyperframes-captions/SKILL.md"
+ },
+ {
+  "question": "How do I add a switchable subtitle track to an MP4 without re-encoding?",
+  "answer": "mov_text",
+  "file": "v0.8/media/hyperframes-captions/references/subtitle-formats.md"
+ },
+ {
+  "question": "My video feels like a slideshow of jump cuts; how many kinds of transitions should a film use?",
+  "answer": "between 3 and 5 kinds of transition",
+  "file": "v0.8/core/hyperframes-transitions/SKILL.md"
+ },
+ {
+  "question": "Shader transition shows black frames between scenes",
+  "answer": "explicit `background-color`",
+  "file": "v0.8/core/hyperframes-transitions/references/shader-transitions.md"
+ },
+ {
+  "question": "Give me the GSAP code for a circle iris wipe between two scenes",
+  "answer": "Circle Iris",
+  "file": "v0.8/core/hyperframes-transitions/references/css-transitions.md"
+ },
+ {
+  "question": "Can I render my HyperFrames deck to MP4 to share it?",
+  "answer": "holds only the first slide",
+  "file": "v0.8/core/hyperframes-slideshow/SKILL.md"
+ },
+ {
+  "question": "Turn this landing page URL into a 20 second launch video",
+  "answer": "npx hyperframes capture",
+  "file": "v0.8/core/website-to-hyperframes/SKILL.md"
+ },
+ {
+  "question": "Which captured colour should be the accent in the brand notes?",
+  "answer": "appears in the most roles",
+  "file": "v0.8/core/website-to-hyperframes/references/capture-and-brand.md"
+ },
+ {
+  "question": "Everything is slightly bigger after porting my Remotion project",
+  "answer": "box-sizing: border-box",
+  "file": "v0.8/core/remotion-to-hyperframes/SKILL.md"
+ },
+ {
+  "question": "What GSAP ease matches a Remotion spring with damping 12 and stiffness 100?",
+  "answer": "back.out(1.4)",
+  "file": "v0.8/core/remotion-to-hyperframes/references/timing.md"
+ },
+ {
+  "question": "Why does my GSAP animation show its end state on frame 0?",
+  "answer": "The timeline was created without `paused: true`",
+  "file": "v0.8/animation/gsap/SKILL.md"
+ },
+ {
+  "question": "How do I repeat a pulse without repeat -1?",
+  "answer": "Finite repeats",
+  "file": "v0.8/animation/gsap/SKILL.md"
+ },
+ {
+  "question": "Is SplitText free to use and how do I reveal lines with it?",
+  "answer": "mask: \"lines\"",
+  "file": "v0.8/animation/gsap/references/plugins.md"
+ },
+ {
+  "question": "My anime.js v4 animation plays on its own and ignores the video timeline",
+  "answer": "autoplay",
+  "file": "v0.8/animation/animejs/SKILL.md"
+ },
+ {
+  "question": "Lottie stutters only in the final render",
+  "answer": "Script called `play()` and fought the adapter's seeks",
+  "file": "v0.8/animation/lottie/SKILL.md"
+ },
+ {
+  "question": "How do I play a GLTF animation clip at the exact frame in a video?",
+  "answer": "AnimationMixer.setTime",
+  "file": "v0.8/animation/threejs/SKILL.md"
+ },
+ {
+  "question": "element.animate snaps back to the start between frames",
+  "answer": "fill: \"both\"",
+  "file": "v0.8/animation/css-animations/SKILL.md"
+ },
+ {
+  "question": "Can I use an infinite CSS keyframe loop for film grain?",
+  "answer": "finite iteration counts",
+  "file": "v0.8/animation/css-animations/SKILL.md"
+ },
+ {
+  "question": "Tailwind classes I build with string concatenation have no styles in the render",
+  "answer": "Static class tokens",
+  "file": "v0.8/animation/tailwind/SKILL.md"
+ },
+ {
+  "question": "My WebGPU canvas captures the previous frame instead of the current one",
+  "answer": "onSubmittedWorkDone",
+  "file": "v0.8/animation/webgpu/SKILL.md"
+ },
+ {
+  "question": "How long should a number count-up take in a video?",
+  "answer": "A count-up runs 1.2 to 1.6 s",
+  "file": "v0.8/animation/data-in-motion/SKILL.md"
+ },
+ {
+  "question": "Can I use MapLibre flyTo for a camera move to a city?",
+  "answer": "never `flyTo`",
+  "file": "v0.8/animation/data-in-motion/SKILL.md"
+ },
+ {
+  "question": "Which ease should an element use when it arrives versus when it leaves?",
+  "answer": "Ease by role",
+  "file": "v0.8/craft/motion-design/SKILL.md"
+ },
+ {
+  "question": "How long must a line of on-screen text stay before the next one?",
+  "answer": "0.3 s per word on top of a 0.5 s base",
+  "file": "v0.8/craft/motion-design/SKILL.md"
+ },
+ {
+  "question": "My cuts drift off the music beat after a minute",
+  "answer": "Beat grids that do not drift",
+  "file": "v0.8/craft/motion-design/references/easing-and-timing.md"
+ },
+ {
+  "question": "What should the first two seconds of a short vertical ad do?",
+  "answer": "pattern interrupt",
+  "file": "v0.8/craft/video-storyboard/references/hooks-and-arcs.md"
+ },
+ {
+  "question": "Where do the brand colours and fonts for the video come from?",
+  "answer": "design.md",
+  "file": "v0.8/craft/video-design-system/SKILL.md"
+ },
+ {
+  "question": "Dark gradient background shows bands after compression",
+  "answer": "Fight banding",
+  "file": "v0.8/craft/video-design-system/references/palettes.md"
+ },
+ {
+  "question": "Which fonts can I use by name in HyperFrames without adding files?",
+  "answer": "Bundled families",
+  "file": "v0.8/craft/video-fonts/SKILL.md"
+ },
+ {
+  "question": "Text renders as fake bold with my brand font",
+  "answer": "synthetic bold",
+  "file": "v0.8/craft/video-fonts/SKILL.md"
+ },
+ {
+  "question": "How do I write a liquid plasma background shader that is seekable?",
+  "answer": "Plasma",
+  "file": "v0.8/craft/vfx/references/webgl-shaders.md"
+ },
+ {
+  "question": "Can I port a Shadertoy shader into a commercial video?",
+  "answer": "CC BY-NC-SA",
+  "file": "v0.8/craft/vfx/SKILL.md"
+ },
+ {
+  "question": "I need a futuristic HUD frame for a product demo",
+  "answer": "HUD frame",
+  "file": "v0.8/craft/motion-assets/references/ui-elements.md"
+ },
+ {
+  "question": "How many words fit in a 30 second voiceover?",
+  "answer": "65 to 75",
+  "file": "v0.8/craft/video-copywriting/SKILL.md"
+ },
+ {
+  "question": "The text to speech voice spells out API letter by letter in a weird way, what should I write?",
+  "answer": "Spoken forms for text-to-speech",
+  "file": "v0.8/craft/video-copywriting/SKILL.md"
+ },
+ {
+  "question": "How do I review my finished video before sending it to the client?",
+  "answer": "snapshot --review",
+  "file": "v0.8/craft/video-review/SKILL.md"
+ },
+ {
+  "question": "What bitrate should a 1080p 60fps upload use?",
+  "answer": "12 Mbps",
+  "file": "v0.8/delivery/render-and-export/references/codec-guide.md"
+ },
+ {
+  "question": "Make the MP4 start playing in the browser before it fully downloads",
+  "answer": "faststart",
+  "file": "v0.8/delivery/render-and-export/references/ffmpeg-recipes.md"
+ },
+ {
+  "question": "My call to action is hidden behind the like button on Reels",
+  "answer": "Safe zones",
+  "file": "v0.8/delivery/platform-formats/SKILL.md"
+ },
+ {
+  "question": "How do I make a vertical 9:16 version of my landscape video?",
+  "answer": "Adapting landscape to vertical",
+  "file": "v0.8/delivery/platform-formats/SKILL.md"
+ },
+ {
+  "question": "How early should an animation start to land exactly on a music hit?",
+  "answer": "40 to 190 ms",
+  "file": "v0.8/media/audio-sync/SKILL.md"
+ },
+ {
+  "question": "Duck the background music while the narrator talks",
+  "answer": "Ducking music under a voice",
+  "file": "v0.8/media/audio-sync/references/mixing.md"
+ },
+ {
+  "question": "My logo should pulse with the bass of the track",
+  "answer": "Per-frame reading in onUpdate",
+  "file": "v0.8/media/audio-sync/references/audio-reactive.md"
+ },
+ {
+  "question": "How do I prove two renders of my composition are identical?",
+  "answer": "determinism_check.sh",
+  "file": "v0.8/delivery/render-testing/SKILL.md"
+ },
+ {
+  "question": "Set up GitHub Actions to check my video project on every pull request",
+  "answer": "Workflow file",
+  "file": "v0.8/delivery/render-testing/references/ci.md"
+ },
+ {
+  "question": "My render on a Linux server is ten times slower than on my laptop",
+  "answer": "software gpu",
+  "file": "v0.8/delivery/render-performance/SKILL.md"
+ },
+ {
+  "question": "How many workers should I render with if I run out of memory?",
+  "answer": "about 256 MB",
+  "file": "v0.8/delivery/render-performance/SKILL.md"
+ },
+ {
+  "question": "Help me plan a 30-second launch video for our new feature before you build anything",
+  "answer": "Three storylines, each a different film",
+  "file": "v0.8/craft/video-storyboard/SKILL.md"
+ },
+ {
+  "question": "How much of a launch video should the proof part take, and where does the payoff go?",
+  "answer": "60 to 80% in",
+  "file": "v0.8/craft/video-storyboard/SKILL.md"
+ },
+ {
+  "question": "What fields should each frame in STORYBOARD.md have so the build and review agree?",
+  "answer": "`reads`",
+  "file": "v0.8/craft/video-storyboard/SKILL.md"
+ },
+ {
+  "question": "How should an explainer video open so it is not just a diagram?",
+  "answer": "Ground it first",
+  "file": "v0.8/craft/video-storyboard/references/video-types.md"
+ },
+ {
+  "question": "How do I structure a music video around the song?",
+  "answer": "sections become chapters",
+  "file": "v0.8/craft/video-storyboard/references/video-types.md"
+ },
+ {
+  "question": "Remove the ums and long pauses from my interview recording",
+  "answer": "--remove-fillers",
+  "file": "v0.8/media/talking-head-edits/SKILL.md"
+ },
+ {
+  "question": "My captions drift off the words after I cut out the silences",
+  "answer": "caption the cut file with its retimed transcript",
+  "file": "v0.8/media/talking-head-edits/SKILL.md"
+ },
+ {
+  "question": "I hear a click at every jump cut in my podcast edit",
+  "answer": "30 ms in and out",
+  "file": "v0.8/media/talking-head-edits/SKILL.md"
+ },
+ {
+  "question": "Should every caption on a talking head be placed behind the speaker?",
+  "answer": "at most one word per beat",
+  "file": "v0.8/media/talking-head-edits/SKILL.md"
+ },
+ {
+  "question": "How do I show my HyperFrames video live on my website with play and pause buttons?",
+  "answer": "<hyperframes-player",
+  "file": "v0.8/core/hyperframes-player/SKILL.md"
+ },
+ {
+  "question": "I want to embed user-uploaded compositions safely in my app",
+  "answer": "sandbox-origin=\"opaque\"",
+  "file": "v0.8/core/hyperframes-player/SKILL.md"
+ },
+ {
+  "question": "Using the player in Next.js fails with window is not defined",
+  "answer": "client component",
+  "file": "v0.8/core/hyperframes-player/SKILL.md"
+ },
+ {
+  "question": "How can I loop just seconds 8 to 14 of a film as a hero background?",
+  "answer": "range-start=\"8\"",
+  "file": "v0.8/core/hyperframes-player/SKILL.md"
+ },
+ {
+  "question": "How do I render HyperFrames videos from my Node.js backend with progress and cancel?",
+  "answer": "executeRenderJob",
+  "file": "v0.8/core/hyperframes-automation/SKILL.md"
+ },
+ {
+  "question": "I need to make 5,000 personalised videos from a spreadsheet",
+  "answer": "A personalised video pipeline",
+  "file": "v0.8/core/hyperframes-automation/SKILL.md"
+ },
+ {
+  "question": "Is my footage private when I use hyperframes cloud render?",
+  "answer": "public, unsigned",
+  "file": "v0.8/core/hyperframes-automation/SKILL.md"
+ },
+ {
+  "question": "lambda render says no stack state",
+  "answer": "lambda-stack-<stack-name>.json",
+  "file": "v0.8/core/hyperframes-automation/references/cloud-and-lambda.md"
+ },
+ {
+  "question": "Can I render HLS or HDR on AWS Lambda?",
+  "answer": "SDR only",
+  "file": "v0.8/core/hyperframes-automation/references/cloud-and-lambda.md"
+ },
+ {
+  "question": "How do I change a headline in composition HTML from a script without opening Studio?",
+  "answer": "openComposition",
+  "file": "v0.8/core/hyperframes-automation/references/sdk-editing.md"
+ },
+ {
+  "question": "Store only what each customer changed on top of my base template",
+  "answer": "getOverrides()",
+  "file": "v0.8/core/hyperframes-automation/references/sdk-editing.md"
+ },
+ {
+  "question": "Turn this figma.com link into an animated product video",
+  "answer": "npx hyperframes figma tokens",
+  "file": "v0.8/core/design-to-hyperframes/SKILL.md"
+ },
+ {
+  "question": "My Figma storyboard frames play like a slideshow",
+  "answer": "states, not slides",
+  "file": "v0.8/core/design-to-hyperframes/SKILL.md"
+ },
+ {
+  "question": "figma tokens returns 403 on our Professional plan",
+  "answer": "Library content",
+  "file": "v0.8/core/design-to-hyperframes/SKILL.md"
+ },
+ {
+  "question": "Make a YouTube thumbnail for my video",
+  "answer": "3840×2160 recommended",
+  "file": "v0.8/craft/video-thumbnails/SKILL.md"
+ },
+ {
+  "question": "How do I export a thumbnail at 4K from a 1080p composition?",
+  "answer": "--zoom-scale 2",
+  "file": "v0.8/craft/video-thumbnails/SKILL.md"
+ },
+ {
+  "question": "Where should text go on a Reels cover so the profile grid does not cut it?",
+  "answer": "3:4 crop",
+  "file": "v0.8/craft/video-thumbnails/SKILL.md"
+ },
+ {
+  "question": "How do I add real motion blur to fast moves in HyperFrames?",
+  "answer": "data-motion-blur=\"on\"",
+  "file": "v0.8/craft/vfx/references/runtime-effects.md"
+ },
+ {
+  "question": "Pixelate an email address in my screen recording for three seconds",
+  "answer": "clip-path",
+  "file": "v0.8/craft/vfx/references/runtime-effects.md"
+ },
+ {
+  "question": "Make the product clip look like a halftone print or ASCII art",
+  "answer": "two-ink print",
+  "file": "v0.8/craft/vfx/references/runtime-effects.md"
+ },
+ {
+  "question": "Where can I get a whoosh sound effect or a brand logo for my video?",
+  "answer": "media-use resolve",
+  "file": "v0.8/media/hyperframes-media/SKILL.md"
+ },
+ {
+  "question": "Which engine does hyperframes transcribe use by default?",
+  "answer": "The default engine is `auto`",
+  "file": "v0.8/media/hyperframes-media/SKILL.md"
+ },
+ {
+  "question": "anime.js warns that createSpring is deprecated",
+  "answer": "anime.spring",
+  "file": "v0.8/animation/animejs/SKILL.md"
+ },
+ {
+  "question": "I have a canvas sketch with a draw(t) function, do I need a dummy GSAP timeline?",
+  "answer": "registerFrameSource",
+  "file": "v0.8/core/hyperframes/SKILL.md"
+ },
+ {
+  "question": "Should I use CSS keyframes or element.animate for bars that come from data?",
+  "answer": "Pick CSS keyframes or WAAPI",
+  "file": "v0.8/animation/css-animations/SKILL.md"
+ },
+ {
+  "question": "How do I write a spring easing without a library in CSS?",
+  "answer": "linear()",
+  "file": "v0.8/animation/css-animations/SKILL.md"
+ },
+ {
+  "question": "Drive my Three.js scene from the host clip timing without GSAP",
+  "answer": "A 3D scene as a frame source",
+  "file": "v0.8/animation/threejs/SKILL.md"
+ },
+ {
+  "question": "Can Lottie animations be recoloured to match the brand?",
+  "answer": "Theming a Lottie to the brand",
+  "file": "v0.8/animation/lottie/SKILL.md"
+ },
+ {
+  "question": "My Tailwind classes are missing in the rendered video",
+  "answer": "__tailwindReady",
+  "file": "v0.8/animation/tailwind/SKILL.md"
+ },
+ {
+  "question": "The WebGPU layer captures the previous frame",
+  "answer": "waitUntil",
+  "file": "v0.8/animation/webgpu/SKILL.md"
+ },
+ {
+  "question": "Give me honest feedback on this video before I publish it",
+  "answer": "P0",
+  "file": "v0.8/craft/video-review/SKILL.md"
+ },
+ {
+  "question": "I need a custom mascot animation the registry does not have",
+  "answer": "Characters, mascots, complex icon animation",
+  "file": "v0.8/craft/motion-assets/SKILL.md"
+ },
+ {
+  "question": "Build a live presentation deck with HyperFrames and speaker notes",
+  "answer": "hyperframes present",
+  "file": "v0.8/core/hyperframes-slideshow/SKILL.md"
+ },
+ {
+  "question": "Can I put my own ready-made block into the public registry?",
+  "answer": "Contributing an item upstream",
+  "file": "v0.8/core/hyperframes-registry/SKILL.md"
+ },
+ {
+  "question": "How do I send someone a link to my HyperFrames project without running a server?",
+  "answer": "npx hyperframes publish --yes",
+  "file": "v0.8/core/hyperframes-cli/SKILL.md"
+ }
+]

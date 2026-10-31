@@ -1,0 +1,124 @@
+{
+ "packages": [
+  {
+   "name": "hyperframes",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@hyperframes/core",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@hyperframes/engine",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@hyperframes/player",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@hyperframes/producer",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@hyperframes/sdk",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@hyperframes/shader-transitions",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@hyperframes/aws-lambda",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@hyperframes/gcp-cloud-run",
+   "ecosystem": "npm",
+   "version": "0.8.223",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "gsap",
+   "ecosystem": "npm",
+   "version": "3.15.0",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "animejs",
+   "ecosystem": "npm",
+   "version": "4.5.0",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "lottie-web",
+   "ecosystem": "npm",
+   "version": "5.13.0",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@lottiefiles/dotlottie-web",
+   "ecosystem": "npm",
+   "version": "0.82.0",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "three",
+   "ecosystem": "npm",
+   "version": "0.187.0",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "typegpu",
+   "ecosystem": "npm",
+   "version": "0.12.9",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "d3",
+   "ecosystem": "npm",
+   "version": "7.9.0",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "tailwindcss",
+   "ecosystem": "npm",
+   "version": "4.3.3",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "@tailwindcss/browser",
+   "ecosystem": "npm",
+   "version": "4.3.3",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "remotion",
+   "ecosystem": "npm",
+   "version": "4.0.539",
+   "checked": "2026-10-31"
+  },
+  {
+   "name": "fonttools",
+   "ecosystem": "pypi",
+   "version": "4.68.0",
+   "checked": "2026-10-31"
+  }
+ ]
+}
